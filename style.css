@@ -1,6 +1,28 @@
 .landing{
   background-image:url("../images/Group 2.png");
   height: 745px;
-  max-width: fill;
-  
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.screen-type{
+  position: relative ;
+}
+
+.screen-type::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  border-right: 2px solid;
+  animation: blink infinite 1s ease ;
+}
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
