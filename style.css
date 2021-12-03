@@ -1,3 +1,11 @@
+nav{
+  background-color: rgba(0,0,0, 0.3);
+}
+.li-item{
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
 .landing{
   background-image:url("../images/Group 2.png");
   height: 745px;
@@ -16,7 +24,8 @@
   width: 1px;
   height: 90%;
   border-right: 2px solid;
-  animation: blink infinite 1s ease ;
+  animation: blink infinite 0.4s ease;
+  padding-left: 2px;
 }
 @keyframes blink{
   0%{
@@ -38,6 +47,7 @@
 }
 .about span{
   color: #fd7;
+  text-shadow:3px 2px #421;
 }
 .hire{
   text-align: center;
@@ -52,4 +62,5 @@
  padding: 8px 16px 8px 16px;
  margin-top: 50px;
  border-radius: 20px;
+ text-shadow:2px 2px #421;
 }

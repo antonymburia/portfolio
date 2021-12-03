@@ -1,6 +1,6 @@
-const text = ['Front end developer no', 'Backend dev sorry', 'Full Stack Developer'];
+const text = ['Web designer I design and build user interfaces no', 'Back End dev sorry', 'Full Stack Developer'];
 let count = 0;
-index = 0;
+txtindex = 0;
 let currenttxt = '';
 let character = '';
 
@@ -9,12 +9,12 @@ let character = '';
     count = 0;
   }
   currenttxt = text[count];
-  character = currenttxt.slice(0, ++index);
+  character = currenttxt.slice(0, ++txtindex);
 
   document.querySelector('.screen-type').textContent = character;
   if (character.length === currenttxt.length) {
     count++;
-    index = 0;
+    txtindex = 0;
   }
   setTimeout(typing, 300);
 }());
