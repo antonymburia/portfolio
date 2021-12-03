@@ -75,13 +75,15 @@ nav{
   margin-top: 200px;
   height: fit-content;
   padding: 5%;
+  background-color: #fff;
+  text-shadow:2px 2px 3px #000;
 }
 .skills h1{
   text-align: center;
   color: #fff;
   font-weight: 900;
   font-size: 50px;
-  text-shadow:2px 2px 3px #421;
+  text-shadow:2px 2px 3px #000;
   background-color:rgba(0,0,0,0.5);
 }
 .skill-set{
@@ -117,7 +119,7 @@ nav{
 .pr-icons:hover{
   background-color:rgba(37,87,187, 0.4);
   box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
-  text-shadow:3px 2px #421;
+  text-shadow:3px 2px #000;
   transition: ease-in-out 1.5s;
 }
 .comp{
@@ -133,8 +135,32 @@ nav{
   text-align: center;
 }
 .my-projects{
+  background-color: rgb(157,162,173,0.5);
+  padding: 5%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.my-projects:hover{
+  box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
+  background-color:rgba(37,87,187, 0.4);
+  transition: ease-in-out 1.5s;
+}
+.projects h1{
+  text-align: center;
+  color: #fff;
+}
+.my-projects a{
   display: block;
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
 }
 .my-projects img{
-  width: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.my-projects a:hover{
+  color:#fd7;
+  transition: ease-in-out 1.5s;
 }
