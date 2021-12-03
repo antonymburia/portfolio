@@ -1,3 +1,6 @@
+body{
+  background-color: #000;
+}
 nav{
   background-color: rgba(0,0,0, 0.3);
 }
@@ -40,6 +43,7 @@ nav{
   margin-top: 80px;
   color: #fff;
   text-shadow: 2px 3px rgba(37,87,187, 0.4);
+  background-color:rgba(0,0,0,0.5);
 }
 .about h4{
   color:#eee;
@@ -63,4 +67,62 @@ nav{
  margin-top: 50px;
  border-radius: 20px;
  text-shadow:2px 2px #421;
+}
+#section1{
+  color: #fff;
+}
+.skills{
+  margin-top: 200px;
+  height: fit-content;
+  padding: 5%;
+}
+.skills h1{
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow:2px 2px 3px #421;
+  background-color:rgba(0,0,0,0.5);
+}
+.skill-set{
+  margin: 0 0 5px 10px;
+  padding: 5%;
+  background-color:rgba(0,0,0,0.5);
+  height: 320px;
+  line-height: 2;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 900;
+
+}
+.skill-set:hover{
+  background-color:rgba(37,87,187, 0.4);
+  box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
+  transition: ease-in-out 1.5s;
+  text-align: center;
+}
+.pr-icons{
+  margin: 0 10px 0 5px;
+  padding: 5%;
+  background-color:rgba(0,0,0);
+  color: #fff;
+  border-radius: 30px;
+}
+.pr-icons:hover{
+  background-color:rgba(37,87,187, 0.4);
+  box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
+  text-shadow:3px 2px #421;
+  transition: ease-in-out 1.5s;
+}
+.comp{
+  display:flex;
+  justify-content: space-evenly; 
+}
+.comp img{
+  height: 80px;
+  width: 80px;
+}
+.block-ft{
+  display: block;
+  text-align: center;
 }
