@@ -26,3 +26,30 @@
     opacity: 1;
   }
 }
+.about {
+  margin-left: 5em;
+  margin-top: 80px;
+  color: #fff;
+  text-shadow: 2px 3px rgba(37,87,187, 0.4);
+}
+.about h4{
+  color:#eee;
+  margin-bottom: 20px;
+}
+.about span{
+  color: #fd7;
+}
+.hire{
+  text-align: center;
+}
+.hire button{
+ color: #fd7;
+ font-weight: 900;
+ font-size: 2em;
+ background-color: rgba(37,87,187, 0.4);
+ border-color:#fd7;
+ text-align: center;
+ padding: 8px 16px 8px 16px;
+ margin-top: 50px;
+ border-radius: 20px;
+}
