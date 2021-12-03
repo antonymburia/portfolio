@@ -95,11 +95,17 @@ nav{
   font-weight: 900;
 
 }
+.skill-set h3{
+  color: #421;
+}
 .skill-set:hover{
   background-color:rgba(37,87,187, 0.4);
   box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
   transition: ease-in-out 1.5s;
   text-align: center;
+}
+.skill-set:hover h3{
+  color: #fd7;
 }
 .pr-icons{
   margin: 0 10px 0 5px;
