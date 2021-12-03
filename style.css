@@ -132,3 +132,9 @@ nav{
   display: block;
   text-align: center;
 }
+.my-projects{
+  display: block;
+}
+.my-projects img{
+  width: 200px;
+}
