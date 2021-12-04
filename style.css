@@ -27,7 +27,7 @@ nav{
 }
 
 .landing{
-  background-image:url("/images/Group 2.png");
+  background-image:url("images/Group 2.png");
   height: 745px;
   background-size: cover;
   background-attachment: fixed;
