@@ -15,8 +15,11 @@ nav{
   background-size: cover;
   background-attachment: fixed;
   background-position: top center;
+  
 }
-
+.land{
+  border-left: #fd7 solid;
+}
 .screen-type{
   position: relative ;
 }
@@ -44,6 +47,7 @@ nav{
   color: #fff;
   text-shadow: 2px 3px rgba(37,87,187, 0.4);
   background-color:rgba(0,0,0,0.5);
+  
 }
 .about h4{
   color:#eee;
@@ -75,7 +79,7 @@ nav{
   margin-top: 200px;
   height: fit-content;
   padding: 5%;
-  background-color: #fff;
+  background-color: rgb(255,255,255);
   text-shadow:2px 2px 3px #000;
 }
 .skills h1{
@@ -89,41 +93,46 @@ nav{
 .skill-set{
   margin: 0 0 5px 10px;
   padding: 5%;
-  background-color:rgba(0,0,0,0.5);
   height: 320px;
   line-height: 2;
-  border-radius: 30px;
   font-size: 20px;
   font-weight: 900;
+  display: flex;
 
 }
 .skill-set h3{
   color: #421;
 }
-.skill-set:hover{
-  background-color:rgba(37,87,187, 0.4);
-  box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
-  transition: ease-in-out 1.5s;
-  text-align: center;
-}
-.skill-set:hover h3{
-  color: #fd7;
+.skill-set img{
+  height: 480px;
 }
 .pr-icons{
   margin: 0 10px 0 5px;
   padding: 5%;
   background-color:rgba(0,0,0);
   color: #fff;
+  text-shadow: none;
   border-radius: 30px;
 }
 .pr-icons:hover{
+  color: #000;
   background-color:rgba(37,87,187, 0.4);
   box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
-  text-shadow:3px 2px #000;
+  font-size: 30px;
+  text-align: center;
+  transition: ease-in-out 1.5s;
+}
+.pr-icons:hover .grow{
+  height: 500px;
+  transition: ease-in-out 1.5s;
+}
+.pr-icons:hover h2{
+  text-shadow: 2px 2px #fff;
   transition: ease-in-out 1.5s;
 }
 .comp{
   display:flex;
+  flex-wrap: wrap;
   justify-content: space-evenly; 
 }
 .comp img{
@@ -134,20 +143,31 @@ nav{
   display: block;
   text-align: center;
 }
+#projects{
+  padding-top: 50px;
+  background-color: #fff;
+  
+}
+.projects{
+  margin: 10px 10px 0 10px;
+}
 .my-projects{
-  background-color: rgb(157,162,173,0.5);
+  background-color: rgb(157,162,173);
   padding: 5%;
   margin-bottom: 20px;
   border-radius: 20px;
 }
 .my-projects:hover{
   box-shadow: 5px 5px 5px 5px  rgb(255,193,58);
-  background-color:rgba(37,87,187, 0.4);
+  background-color:rgba(37,87,187);
   transition: ease-in-out 1.5s;
 }
+
+
 .projects h1{
   text-align: center;
-  color: #fff;
+  padding-bottom: 25px;
+  color: #000;
 }
 .my-projects a{
   display: block;
