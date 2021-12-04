@@ -9,7 +9,6 @@ This is a simple landing page for my portfolio
 
 ## Setup/Installation Requirements
 * Clone the repository to your computer from 
-
         https://github.com/antonymburia/Portfolio.git
 * Open the project using your preferred code editor.
 * Open the project using a web browser, preferably Google Chrome.

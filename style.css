@@ -181,6 +181,10 @@ nav{
   background-color:rgba(37,87,187);
   transition: ease-in-out 1.5s;
 }
+.my-projects img:hover{
+  transform: scale(1.1);
+  transition: ease-in-out 1.5s;
+}
 
 
 .projects h1{
