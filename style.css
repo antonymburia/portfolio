@@ -1,12 +1,22 @@
+*{
+  font-family: 'Jost', sans-serif;
+}
 body{
   background-color: #000;
 }
-nav{
-  background-color: rgba(0,0,0, 0.3);
+#brand{
+  color: #fd7;
+  font-weight: 900;
+  font-family: lobster;
 }
+nav{
+  background-color: rgba(0,0,0, 0.9);
+}
+
 .li-item{
   font-weight: 900;
   font-size: 1.5em;
+  color: white;
 }
 
 .landing{

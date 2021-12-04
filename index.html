@@ -7,36 +7,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Potfolio</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="landing">
-      <nav class="navbar navbar-expand-md">
+    <div id="home" class="landing">
+      <nav class="navbar navbar-expand-md sticky-top">
         <div class="container-fluid navigation-bar">
-          <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"><span
+          <a id="brand" class="navbar-brand" href="javascript:void(0)"><img src="images/Ellipse 1.png" height="50px" alt=""> Toni</a>
+          <button style="border-color: #fd7; background-color: #fff;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"><span
               class="navbar-toggler-icon"></span>
           </button>
           <div class="li-item  collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto" id="li-item-fl">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item me-auto">
-                <a href="" class="nav-link">Home</a>
+                <a href="" class="nav-link active">Home</a>
               </li>
               <li class="nav-item me-auto">
-                <a href="" class="nav-link">About</a>
+                <a href="#section1" class="nav-link">Skills</a>
               </li>
               <li class="nav-item me-auto">
-                <a href="" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
               </li>
               <li class="nav-item me-auto">
-                <a href="" class="nav-link">Projects</a>
-              </li>
-              <li class="nav-item me-auto">
-                <a href="" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -44,7 +43,7 @@
 
       </nav>
       <!-- about me section -->
-      <div class="row land">
+      <div id="about" class="row land">
         <div class="col-md-auto">
           <div class="about">
             <h4>Hello, my name is </h4>
@@ -55,9 +54,7 @@
           </div>
           <!-- hire me section -->
           <div class="hire">
-            <button>
-              Contact me
-            </button>
+            <a href="#contact"><button>Contact me</button></a>
           </div>
         </div>
       </div>
@@ -118,21 +115,21 @@
           <div class="row">
             <div class="col-xl-4">
               <div class="my-projects">
-                <a href=""><img src="images/letuce-eat.png" alt="">
+                <a href="https://antonymburia.github.io/Letuce_Eat/"><img src="images/letuce-eat.png" alt="">
                   <h2>Letuce Eat</h2>
                 </a>
               </div>
             </div>
             <div class="col-xl-4">
               <div class="my-projects">
-                <a href=""><img src="images/pet-website.png" alt="">
+                <a href="https://antonymburia.github.io/pet-website/"><img src="images/pet-website.png" alt="">
                   <h2>Pet Website</h2>
                 </a>
               </div>
             </div>
             <div class="col-xl-4">
               <div class="my-projects">
-                <a href=""><img src="images/burger-palace.png" alt="">
+                <a href="https://antonymburia.github.io/burger_palace/"><img src="images/burger-palace.png" alt="">
                   <h2>Burger Palace</h2>
                 </a>
               </div>
@@ -141,21 +138,21 @@
           <div class="row">
             <div class="col-xl-4">
               <div class="my-projects">
-                <a href=""><img src="images/digimex.png" alt="">
+                <a href="https://isaacwach.github.io/digimex/"><img src="images/digimex.png" alt="">
                   <h2>Digimex</h2>
                 </a>
               </div>
             </div>
             <div class="col-xl-4">
               <div class="my-projects">
-                <a href=""><img src="images/portfolio.png" alt="">
+                <a href="https://antonymburia.github.io/Portfolio/"><img src="images/portfolio.png" alt="">
                   <h2>My Portfolio</h2>
                 </a>
               </div>
             </div>
             <div class="col-xl-4">
               <div class="my-projects">
-                <a href=""><img src="images/my-servicer.png" alt="">
+                <a href="https://antonymburia.github.io/myserviser/"><img src="images/my-servicer.png" alt="">
                   <h2>My Servicer</h2>
                 </a>
               </div>
