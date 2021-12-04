@@ -187,12 +187,29 @@ nav{
 }
 #contact{
   height: 3em;
+  color: #fff;
+  text-align: center;
 }
+
 .icons{
   text-align: center;
 }
 .icons i{
   font-size: 3em;
-  color: rgba(37,87,187);
-  padding: 10px 16px 10px 16px;
+  padding: 20px 16px 20px 16px;
+}
+.icons .ln{
+  color: #16c;
+}
+.icons .git{
+  color: #fff;
+}
+.icons .fb{
+  color: #19f;
+}
+.icons .twitter{
+  color: #2af;
+}
+.fa{
+  color: #fff;
 }
