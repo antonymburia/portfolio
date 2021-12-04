@@ -149,7 +149,8 @@ nav{
   
 }
 .projects{
-  margin: 10px 10px 0 10px;
+  margin: 5%;
+  padding-bottom: 50px;
 }
 .my-projects{
   background-color: rgb(157,162,173);
@@ -183,4 +184,15 @@ nav{
 .my-projects a:hover{
   color:#fd7;
   transition: ease-in-out 1.5s;
+}
+#contact{
+  height: 3em;
+}
+.icons{
+  text-align: center;
+}
+.icons i{
+  font-size: 3em;
+  color: rgba(37,87,187);
+  padding: 10px 16px 10px 16px;
 }
