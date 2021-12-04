@@ -12,7 +12,14 @@ body{
 nav{
   background-color: rgba(0,0,0, 0.9);
 }
-
+#mnu{
+  color: #fff;
+  font-size: 30px;
+}
+#nav-ls a:hover{
+  color: #fd7;
+  transition: ease-in-out 0.5s;
+}
 .li-item{
   font-weight: 900;
   font-size: 1.5em;
