@@ -165,6 +165,7 @@ nav{
 .my-projects{
   background-color: rgb(157,162,173);
   padding: 5%;
+  box-shadow: 0 2px 6px 0;
   margin-bottom: 20px;
   border-radius: 20px;
 }
@@ -178,6 +179,7 @@ nav{
 .projects h1{
   text-align: center;
   padding-bottom: 25px;
+  font-weight: 900;
   color: #000;
 }
 .my-projects a{
@@ -222,4 +224,12 @@ nav{
 }
 .fa{
   color: #fff;
+}
+.footer{
+  color: #fff;
+  font-weight: 600;
+  font-size: 2em;
+}
+.copy{
+  color: #16c;
 }
