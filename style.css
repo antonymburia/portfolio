@@ -27,7 +27,7 @@ nav{
 }
 
 .landing{
-  background-image:url("images/Group 2.png");
+  background-image:url("/images/Group 2.png");
   height: 745px;
   background-size: cover;
   background-attachment: fixed;
@@ -181,7 +181,7 @@ nav{
   background-color:rgba(37,87,187);
   transition: ease-in-out 1.5s;
 }
-.my-projects img:hover{
+.my-projects:hover img{
   transform: scale(1.1);
   transition: ease-in-out 1.5s;
 }
