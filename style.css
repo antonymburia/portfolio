@@ -244,3 +244,8 @@ nav{
 .copy{
   color: #16c;
 }
+.email{
+  color: #ffff;
+  font-weight: 900;
+  text-align: left;
+}

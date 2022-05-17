@@ -1,4 +1,4 @@
-const text = ['Web designer I design and build user interfaces no', 'Back End developer', 'Full Stack Developer'];
+const text = ['Web developer I design and build user websites no', 'Back End developer', 'Full Stack Developer'];
 let count = 0;
 txtindex = 0;
 let currenttxt = '';
